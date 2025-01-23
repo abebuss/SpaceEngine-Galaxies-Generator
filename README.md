@@ -27,4 +27,5 @@ File has been successfully generated at:  C:\Path\To\Your\Catalog.csv
 Thank you for using the Galaxy Catalog Generator! Press any key to exit.
 ```
 ## It is recommended to save the .csv file directly into the appropriate SE' mods folder "SpaceEngine\addons\catalogs\galaxies\file name".
+# Also make sure you setted up the initial distance not so close to the real galaxies (Milky Way, etc.) or it would break them (1 parsec = 3.26 light years), so it is recommended to create the galaxies at the edge of the universe (up to you).
 ## - NOTE that your .csv file will be cleared if you will launch the program again on the same file
