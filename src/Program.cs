@@ -63,7 +63,7 @@ public class Init
     static void Main(string[] args)
     {
         Console.ForegroundColor = ConsoleColor.Cyan;
-        Console.WriteLine("Welcome to the Galaxy Catalog Generator!");
+        Console.WriteLine("Welcome to the Galaxy Catalog Generator by abebuss!");
         Console.ResetColor();
 
         Console.WriteLine("\nPlease follow the prompts to set everything up.");
@@ -74,12 +74,12 @@ public class Init
         string galaxiesName = Console.ReadLine();
 
         Console.ForegroundColor = ConsoleColor.Yellow;
-        Console.Write("Enter the initial distance from the sun (in parsecs): ");
+        Console.Write("Enter the initial distance from the sun (all galaxies would be generated from this distance) (in parsecs): ");
         Console.ResetColor();
         double initDistance = Convert.ToDouble(Console.ReadLine());
 
         Console.ForegroundColor = ConsoleColor.Yellow;
-        Console.Write("Enter the number of galaxies you want to create: ");
+        Console.Write("Enter the number of galaxies you want to create (the more galaxies you have - the more density of them you will get): ");
         Console.ResetColor();
         int galaxiesCount = Convert.ToInt32(Console.ReadLine());
 
